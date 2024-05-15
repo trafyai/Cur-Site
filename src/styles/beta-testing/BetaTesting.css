@@ -1,0 +1,51 @@
+.beta-testing{
+    height: 100vh;
+    background-color: #D3E9F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.beta-testing-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap:1.5rem;
+}
+.beta-heading ,.beta-para{
+display: flex;
+justify-content: center;
+}
+.beta-heading h1{
+    width: 80%;
+    font-size: 56px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #001929;
+}
+.beta-para p{
+    width: 70%;
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #001929;
+}
+.beta-button{
+    width: max-content;
+    height: max-content;
+    padding: 8px 24px;
+    background-color: #001929;
+    border: 2px solid #001929;
+    border-radius: 8px;
+    color: #D3E9F4;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.beta-button:hover{
+    background-color: inherit;
+    color: #001929;
+}
